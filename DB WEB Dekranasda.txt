@@ -1,1 +1,22 @@
-USER (ADMIN)
+USERS / ADMIN
+   ~id:
+   ~name:
+   ~email:
+   ~email_very:
+   ~password:
+   ~img:
+   ~role:
+   ~created_at | updated_at
+
+MEMBERS / ANGGOTA
+   ~id:
+   ~nama:
+   ~img:
+   ~description:
+   ~address:
+   ~product:
+   ~contact:
+   ~website: (nullable)
+   ~created_at | updated_at
+
+
