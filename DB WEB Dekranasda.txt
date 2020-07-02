@@ -17,6 +17,8 @@ MEMBERS / ANGGOTA
    ~product:
    ~contact:
    ~website: (nullable)
+   ~slug: 
+   ~user_id: (relation)-----------------------------------------
    ~created_at | updated_at
 
 
