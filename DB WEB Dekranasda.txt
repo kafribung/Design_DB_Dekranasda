@@ -10,8 +10,8 @@ USERS / ADMIN
 
 MEMBERS / ANGGOTA
    ~id:
-   ~nama:
-   ~img:
+   ~name:
+   ~imgmember_id: (relation)------------------------------------
    ~description:
    ~address:
    ~product:
@@ -20,5 +20,12 @@ MEMBERS / ANGGOTA
    ~slug: 
    ~user_id: (relation)-----------------------------------------
    ~created_at | updated_at
+
+IMGMEMBERS Many to one (Members)
+   ~id:
+   ~img
+   ~member_id: (relation)-----------------------------------------
+   ~user_id: (relation)-----------------------------------------
+
 
 
