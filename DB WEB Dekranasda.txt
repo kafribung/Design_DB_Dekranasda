@@ -52,4 +52,21 @@ IMGPRODUCT Many to one (Product)
    ~product_id: (relation)-----------------------------------------
    ~user_id: (relation)-------------------------------------------
 
+/////////////////////////////////////////////////ACTIVITIES
+ACTIVITIES
+   ~id:
+   ~name:
+   ~description:
+   ~img:
+   ~date:
+   ~user_id: (relation)-------------------------------------------
+   ~created_at | updated_at:
+ACTIVITIES COMMENTS
+   ~id:
+   ~name:
+   ~description:
+   ~email:
+   ~count:
+   ~created_at | updated_at:
+
 
